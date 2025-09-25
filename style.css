@@ -36,6 +36,7 @@ nav p {
 .main {
     border:solid 5px black;
     height: 4489px;
+    background: black
 }
 
 h1 {
@@ -56,7 +57,7 @@ font-size: 32px;
 line-height: 44px;
 letter-spacing: 0%;
 vertical-align: middle;
-
+color:white
 }
 
 .description {
@@ -67,5 +68,41 @@ line-height: 32px;
 letter-spacing: 0%;
     width: 566px;
     height: 120px;
+    color:white
 }
 
+.intro-container {
+    display: flex;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.intro-text{
+ width: 566;
+height: 739;
+opacity: 1;
+top: 64px;
+left: 142px;
+padding-top: 192px;
+padding-bottom: 192px;
+gap: 24px;
+
+}
+
+.social-links {
+padding-top: 284px;
+padding-right: 40px;
+display: flex;
+gap:20px;
+flex-direction: column;
+}
+
+.intro-image img {
+    width: 500px;
+    margin-right: 400px;
+    margin-top:  50px; 
+}
